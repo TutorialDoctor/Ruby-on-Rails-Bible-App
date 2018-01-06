@@ -1,7 +1,7 @@
 # Ruby-on-Rails-Bible-App
 A bible app made with Ruby on Rails for quick scripture access. This is going to be fun!
 
-- [ ] Test database connection
+- [x] Test database connection
 - [ ] Features?
 - [ ] Sketch app layout
 - [ ] Wireframes and style guide
