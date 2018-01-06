@@ -11,3 +11,6 @@ A bible app made with Ruby on Rails for quick scripture access. This is going to
 - [ ] Gems needed?
 - [ ] Create views based on initial website design.
 
+For an idea of what I am going for:
+
+https://github.com/TutorialDoctor/The-Bible-App
