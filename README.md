@@ -31,5 +31,4 @@ https://github.com/TutorialDoctor/The-Bible-App
 - https://www.esv.org
 - https://github.com/robertrouse/KJV-bible-database-with-metadata-MetaV-
 
-![](https://github.com/TutorialDoctor/Ruby-on-Rails-Bible-App/blob/master/Wireframes%20&%20Mockups/Layout.png?raw=true)
 ![](https://github.com/TutorialDoctor/Ruby-on-Rails-Bible-App/blob/master/Wireframes%20&%20Mockups/Mobile.png?raw=true)
