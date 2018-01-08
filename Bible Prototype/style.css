@@ -1,3 +1,7 @@
 .form-check-label{
   font-size: 24px;
 }
+
+.col-md-6{
+  border: 1px solid red;
+}
