@@ -3,7 +3,7 @@
 A bible app made with Ruby on Rails for quick scripture access. This is going to be fun!
 
 - [x] Test database connection
-- [ ] Research
+- [x] Research
 - [ ] Basic Features?
 - [x] Paper sketch of app layout
 - [x] Collect [Sketch App](https://www.sketchappsources.com/) resources. 
