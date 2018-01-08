@@ -2,13 +2,15 @@
 
 A bible app made with Ruby on Rails for quick scripture access. This is going to be fun!
 
+This app has to allow you to quickly find a scripture.
+
 - [x] Test database connection
 - [x] Research
 - [ ] Basic Features?
 - [x] Paper sketch of app layout
 - [x] Collect [Sketch App](https://www.sketchappsources.com/) resources. 
-- [ ] Wireframes, mockups, and style guide with Sketch App and [Affinity Designer](https://affinity.serif.com/en-us/)
-- [ ] Prototype with HTML, CSS and Javascript.
+- [x] Wireframes, mockups, and style guide with Sketch App and [Affinity Designer](https://affinity.serif.com/en-us/)
+- [x] Prototype with HTML, CSS and Javascript.
 - [ ] Create a new Rails app.
 - [ ] Define Models and Controllers
 - [ ] Determine what Gems are needed?
@@ -17,6 +19,11 @@ A bible app made with Ruby on Rails for quick scripture access. This is going to
 
 For an idea of what I am going for:
 https://github.com/TutorialDoctor/The-Bible-App
+
+## Basic Features
+
+- No submenus (all neccesary features should be displayed on the page for quick access.)
+- Search function using regular expressions or SQLITE queries?
 
 
 ## Research
