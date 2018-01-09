@@ -1,20 +1,66 @@
-<%@notes.each do |n|%>
+<div class="container">
+<h3>Rails Bible App</h3>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#">Old Testament</a></li>
+      <li><a href="#">New Testament</a></li>
+    </ul>
+
+<!--<%@notes.each do |n|%>
   <b><%=n.title%></b>
   <span><%=n.body%></span><br>
-<%end%>
+<%end%>-->
+  </div><br>
 
 <!--BOOKS-->
 <div class="container">
   <div class="row">
     <div class=col-md-12>
-<%@books.each do |book|%>
-    <div class="books">
-      <span class="book">
-        <a href="#"><%=book[1]%> <span class="badge"><%=book[0]%></span></a>
-      </span>
+      <h3>Old Testament</h3>
+      <%@all_books.each do |book|%>
+      <%if book[0]<40%>
+        <span class="book">
+          <a href="#"><%=book[1]%> <span class="badge"><%=book[0]%></span></a>
+        </span>
+<!--BOOKS-->
+      <%end%><%end%>
+      <h3>New Testament</h3>
+      <%@all_books.each do |book|%>
+      <%if book[0]>39%>
+        <span class="book">
+          <a href="#"><%=book[1]%> <span class="badge"><%=book[0]%></span></a>
+        </span>
+<!--BOOKS-->
+      <%end%><%end%>
     </div>
-    <!--BOOKS-->
+    
+    
+    <!--PAGINATION-->
+    <nav align="middle" aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <% (1..16).each do |i|%>
+    <li><a href="#"><%=i%></a></li><%end%>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+    <!--PAGINATION-->
+    
+    <!--WORDS-->
+    <div class="container">
+    <h2 align="center">Romans <%=@text[0][0]%></h2>
+    <%@text.each do |verse|%>
+    <b><span class="verse"><%=verse[1]%> </span></b>
+    <%=verse[2]%><br>
 <%end%>
-    </div>
-    </div>
+    </div><!--WORDS-->
+    
   </div>
+</div>

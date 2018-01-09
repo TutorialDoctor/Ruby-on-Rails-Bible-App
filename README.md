@@ -11,7 +11,7 @@ This app has to allow you to quickly find a scripture.
 - [x] Collect [Sketch App](https://www.sketchappsources.com/) resources. 
 - [x] Wireframes, mockups, and style guide with Sketch App and [Affinity Designer](https://affinity.serif.com/en-us/)
 - [x] Prototype with HTML, CSS and Javascript.
-- [ ] Create a new Rails app.
+- [x] Create a new Rails app.
 - [ ] Define Models and Controllers
 - [ ] Determine what Gems are needed?
 - [ ] Create initial Rails views based on prototype.
