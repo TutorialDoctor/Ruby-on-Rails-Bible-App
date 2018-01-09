@@ -1,0 +1,20 @@
+<%@notes.each do |n|%>
+  <b><%=n.title%></b>
+  <span><%=n.body%></span><br>
+<%end%>
+
+<!--BOOKS-->
+<div class="container">
+  <div class="row">
+    <div class=col-md-12>
+<%@books.each do |book|%>
+    <div class="books">
+      <span class="book">
+        <a href="#"><%=book[1]%> <span class="badge"><%=book[0]%></span></a>
+      </span>
+    </div>
+    <!--BOOKS-->
+<%end%>
+    </div>
+    </div>
+  </div>
