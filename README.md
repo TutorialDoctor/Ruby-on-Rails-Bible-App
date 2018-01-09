@@ -4,6 +4,9 @@ A bible app made with Ruby on Rails for quick scripture access. This is going to
 
 This app has to allow you to quickly find a scripture.
 
+## Progress Report:
+![](https://github.com/TutorialDoctor/Ruby-on-Rails-Bible-App/blob/master/Screenshots/progress_shot.png?raw=true)
+
 - [x] Test database connection
 - [x] Research
 - [ ] Basic Features?
